@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY app.py .
 COPY requirements.txt .
+COPY model.py .
+COPY train.py
 
 RUN pip install -r requirements.txt
 
